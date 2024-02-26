@@ -6,11 +6,11 @@ on:
       ROM_URL:
         description: 'ROM_URL'
         required: true
-        default: 'https://hugeota.d.miui.com/21.5.31/miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
+        default: 'https://cdn-ota.azureedge.net/V13.0.6.0.RKZCNXM/miui_ENUMA_V13.0.6.0.RKZCNXM_4313a27680_11.0.zip'
       ZIP_NAME:
         description: 'ZIP_NAME'
         required: true
-        default: 'miui_TUCANA_21.5.31_cb42ec9bed_11.0.zip'
+        default: 'miui_ENUMA_V13.0.6.0.RKZCNXM_4313a27680_11.0.zip'
       OS_TYPE:
         description: 'OS_TYPE'
         required: true
@@ -18,7 +18,7 @@ on:
       SGSI_TYPE:
         description: 'SGSI_TYPE(AB, A, or BOTH)'
         required: true
-        default: 'AB'
+        default: 'A'
       REPACK_NAME:
         description: 'REPACK_NAME'
         required: true
